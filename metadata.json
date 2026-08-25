@@ -1,0 +1,8 @@
+{
+  "name": "Site Content Architecture & Gap Auditor - Aug 18 - New",
+  "description": "Map existing pages and blog content, compare competitor coverage, and identify missing content types, content clusters and internal-link opportunities.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
