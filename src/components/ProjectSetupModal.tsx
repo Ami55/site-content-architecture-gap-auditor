@@ -29,10 +29,10 @@ export const ProjectSetupModal: React.FC<ProjectSetupModalProps> = ({
   if (!isOpen) return null;
 
   const [projectName, setProjectName] = useState(initialData?.name || 'New Content Architecture Audit');
-  const [targetDomain, setTargetDomain] = useState(initialData?.targetDomain || 'toursbylocals.com');
-  const [mainSitemapUrl, setMainSitemapUrl] = useState(initialData?.mainSitemapUrl || 'https://www.toursbylocals.com/sitemap.xml');
+  const [targetDomain, setTargetDomain] = useState(initialData?.targetDomain || 'example.com');
+  const [mainSitemapUrl, setMainSitemapUrl] = useState(initialData?.mainSitemapUrl || 'https://example.com/sitemap.xml');
   const [additionalSitemaps, setAdditionalSitemaps] = useState(initialData?.additionalSitemaps.join('\n') || '');
-  const [blogSitemapUrl, setBlogSitemapUrl] = useState(initialData?.blogSitemapUrl || 'https://www.toursbylocals.com/blog/sitemap.xml');
+  const [blogSitemapUrl, setBlogSitemapUrl] = useState(initialData?.blogSitemapUrl || 'https://example.com/blog/sitemap.xml');
   const [destinationOrTopic, setDestinationOrTopic] = useState(initialData?.destinationOrTopic || 'Montreal');
   const [targetDirectoryPattern, setTargetDirectoryPattern] = useState(initialData?.targetDirectoryPattern || '/Montreal-Tours');
   const [includePatterns, setIncludePatterns] = useState(initialData?.includePatterns.join('\n') || '/Montreal*\n/blog/*montreal*\n/guides/*montreal*');
@@ -151,7 +151,7 @@ export const ProjectSetupModal: React.FC<ProjectSetupModalProps> = ({
                 value={targetDomain}
                 onChange={(e) => setTargetDomain(e.target.value)}
                 className="w-full px-3 py-2 border border-slate-300 rounded-lg focus:ring-2 focus:ring-teal-500 focus:outline-hidden font-medium text-slate-900"
-                placeholder="e.g. toursbylocals.com"
+                placeholder="e.g. example.com"
               />
             </div>
           </div>
