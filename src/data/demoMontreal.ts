@@ -3,14 +3,14 @@ import { ProjectData } from "../types";
 export const demoMontrealProject: ProjectData = {
   id: "proj-demo-montreal-2026",
   name: "Montreal Destination Content Architecture & Gap Audit",
-  targetDomain: "toursbylocals.com",
-  mainSitemapUrl: "https://www.toursbylocals.com/sitemap.xml",
+  targetDomain: "example.com",
+  mainSitemapUrl: "https://example.com/sitemap.xml",
   additionalSitemaps: [
-    "https://www.toursbylocals.com/sitemaps/destinations.xml",
-    "https://www.toursbylocals.com/sitemaps/tours-canada.xml",
-    "https://www.toursbylocals.com/sitemaps/guides-montreal.xml"
+    "https://example.com/sitemaps/destinations.xml",
+    "https://example.com/sitemaps/tours-canada.xml",
+    "https://example.com/sitemaps/guides-montreal.xml"
   ],
-  blogSitemapUrl: "https://www.toursbylocals.com/blog/sitemap.xml",
+  blogSitemapUrl: "https://example.com/blog/sitemap.xml",
   destinationOrTopic: "Montreal",
   targetDirectoryPattern: "/Montreal-Tours",
   includePatterns: ["/Montreal*", "/blog/*montreal*", "/guides/*montreal*"],
@@ -23,7 +23,7 @@ export const demoMontrealProject: ProjectData = {
   country: "Canada",
   language: "English (Canadian conventions)",
   targetAudience: "Discerning international travellers, culture enthusiasts, food lovers, and private tour seekers seeking genuine local perspectives",
-  businessObjective: "Establish topical authority for Montreal travel planning, connect high-intent informational searchers with private tours available through ToursByLocals, and eliminate internal cannibalization",
+  businessObjective: "Establish topical authority for Montreal travel planning, connect high-intent informational searchers with private tours available through Example Travel, and eliminate internal cannibalization",
   preferredConversionAction: "Inquire or book custom private tour with local guides",
   analysisScope: "destination_topic",
   analysisDepth: "deep",
@@ -36,7 +36,7 @@ export const demoMontrealProject: ProjectData = {
 
   sitemaps: [
     {
-      url: "https://www.toursbylocals.com/sitemap.xml",
+      url: "https://example.com/sitemap.xml",
       type: "index",
       family: "Sitemap Index",
       urlsDiscovered: 12,
@@ -47,9 +47,9 @@ export const demoMontrealProject: ProjectData = {
       errorsDetected: []
     },
     {
-      url: "https://www.toursbylocals.com/sitemaps/destinations.xml",
+      url: "https://example.com/sitemaps/destinations.xml",
       type: "urlset",
-      parentSitemap: "https://www.toursbylocals.com/sitemap.xml",
+      parentSitemap: "https://example.com/sitemap.xml",
       family: "Destinations Roster",
       urlsDiscovered: 480,
       lastModified: "2026-08-15",
@@ -59,9 +59,9 @@ export const demoMontrealProject: ProjectData = {
       errorsDetected: []
     },
     {
-      url: "https://www.toursbylocals.com/sitemaps/tours-canada.xml",
+      url: "https://example.com/sitemaps/tours-canada.xml",
       type: "urlset",
-      parentSitemap: "https://www.toursbylocals.com/sitemap.xml",
+      parentSitemap: "https://example.com/sitemap.xml",
       family: "Tours Canada",
       urlsDiscovered: 1240,
       lastModified: "2026-08-19",
@@ -71,9 +71,9 @@ export const demoMontrealProject: ProjectData = {
       errorsDetected: []
     },
     {
-      url: "https://www.toursbylocals.com/sitemaps/guides-montreal.xml",
+      url: "https://example.com/sitemaps/guides-montreal.xml",
       type: "urlset",
-      parentSitemap: "https://www.toursbylocals.com/sitemap.xml",
+      parentSitemap: "https://example.com/sitemap.xml",
       family: "Guide Profiles",
       urlsDiscovered: 24,
       lastModified: "2026-08-12",
@@ -83,9 +83,9 @@ export const demoMontrealProject: ProjectData = {
       errorsDetected: []
     },
     {
-      url: "https://www.toursbylocals.com/blog/sitemap.xml",
+      url: "https://example.com/blog/sitemap.xml",
       type: "urlset",
-      parentSitemap: "https://www.toursbylocals.com/sitemap.xml",
+      parentSitemap: "https://example.com/sitemap.xml",
       family: "Editorial & Blog",
       urlsDiscovered: 320,
       lastModified: "2026-08-10",
@@ -101,9 +101,9 @@ export const demoMontrealProject: ProjectData = {
   inventory: [
     {
       id: "inv-1",
-      url: "https://www.toursbylocals.com/Montreal-Tours",
-      canonicalUrl: "https://www.toursbylocals.com/Montreal-Tours",
-      pageTitle: "Private Montreal Tours & Local Guides | ToursByLocals",
+      url: "https://example.com/Montreal-Tours",
+      canonicalUrl: "https://example.com/Montreal-Tours",
+      pageTitle: "Private Montreal Tours & Local Guides | Example Travel",
       h1: "Private Montreal Tours with Local Guides",
       h2s: ["Explore Old Montreal", "Custom Food & Culinary Walks", "Meet Our Local Montreal Guides", "Why Choose a Private Tour"],
       pageType: "City page",
@@ -121,13 +121,13 @@ export const demoMontrealProject: ProjectData = {
       lastModified: "2026-08-15",
       indexability: "Indexable",
       statusCode: 200,
-      sitemapSource: "https://www.toursbylocals.com/sitemaps/destinations.xml",
+      sitemapSource: "https://example.com/sitemaps/destinations.xml",
       internalLinkCount: 42,
       inboundLinksCount: 38,
       outboundLinksCount: 26,
       existingRelatedPages: [
-        "https://www.toursbylocals.com/Montreal-Food-Tours",
-        "https://www.toursbylocals.com/Old-Montreal-Walking-Tours"
+        "https://example.com/Montreal-Food-Tours",
+        "https://example.com/Old-Montreal-Walking-Tours"
       ],
       contentQualityStatus: "High Quality",
       recommendedAction: "Keep and update",
@@ -137,9 +137,9 @@ export const demoMontrealProject: ProjectData = {
     },
     {
       id: "inv-2",
-      url: "https://www.toursbylocals.com/Montreal-Food-Tours",
-      canonicalUrl: "https://www.toursbylocals.com/Montreal-Food-Tours",
-      pageTitle: "Montreal Food Tours & Culinary Walks | ToursByLocals",
+      url: "https://example.com/Montreal-Food-Tours",
+      canonicalUrl: "https://example.com/Montreal-Food-Tours",
+      pageTitle: "Montreal Food Tours & Culinary Walks | Example Travel",
       h1: "Authentic Montreal Food Tours with Local Foodies",
       h2s: ["Mile End Bagels & Jewish Delis", "Jean-Talon Market Tastings", "French Bistro Experiences"],
       pageType: "Tour category page",
@@ -153,16 +153,16 @@ export const demoMontrealProject: ProjectData = {
       searchIntent: "Commercial Investigation",
       journeyStage: "Planning & Research",
       contentCluster: "Montreal Culinary & Markets",
-      parentPage: "https://www.toursbylocals.com/Montreal-Tours",
+      parentPage: "https://example.com/Montreal-Tours",
       wordCount: 1250,
       lastModified: "2026-07-28",
       indexability: "Indexable",
       statusCode: 200,
-      sitemapSource: "https://www.toursbylocals.com/sitemaps/tours-canada.xml",
+      sitemapSource: "https://example.com/sitemaps/tours-canada.xml",
       internalLinkCount: 18,
       inboundLinksCount: 14,
       outboundLinksCount: 12,
-      existingRelatedPages: ["https://www.toursbylocals.com/blog/montreal-food-scene"],
+      existingRelatedPages: ["https://example.com/blog/montreal-food-scene"],
       contentQualityStatus: "High Quality",
       recommendedAction: "Expand existing page",
       confidence: 94,
@@ -171,9 +171,9 @@ export const demoMontrealProject: ProjectData = {
     },
     {
       id: "inv-3",
-      url: "https://www.toursbylocals.com/Old-Montreal-Walking-Tours",
-      canonicalUrl: "https://www.toursbylocals.com/Old-Montreal-Walking-Tours",
-      pageTitle: "Old Montreal Walking Tours & Historic Architecture | ToursByLocals",
+      url: "https://example.com/Old-Montreal-Walking-Tours",
+      canonicalUrl: "https://example.com/Old-Montreal-Walking-Tours",
+      pageTitle: "Old Montreal Walking Tours & Historic Architecture | Example Travel",
       h1: "Private Walking Tours of Historic Old Montreal",
       h2s: ["Notre-Dame Basilica", "Place Jacques-Cartier", "Hidden Courtyards & Cobblestones"],
       pageType: "Tour category page",
@@ -187,16 +187,16 @@ export const demoMontrealProject: ProjectData = {
       searchIntent: "Commercial Investigation",
       journeyStage: "Planning & Research",
       contentCluster: "Old Montreal & Heritage",
-      parentPage: "https://www.toursbylocals.com/Montreal-Tours",
+      parentPage: "https://example.com/Montreal-Tours",
       wordCount: 1420,
       lastModified: "2026-06-19",
       indexability: "Indexable",
       statusCode: 200,
-      sitemapSource: "https://www.toursbylocals.com/sitemaps/tours-canada.xml",
+      sitemapSource: "https://example.com/sitemaps/tours-canada.xml",
       internalLinkCount: 22,
       inboundLinksCount: 19,
       outboundLinksCount: 16,
-      existingRelatedPages: ["https://www.toursbylocals.com/Montreal-Tours"],
+      existingRelatedPages: ["https://example.com/Montreal-Tours"],
       contentQualityStatus: "High Quality",
       recommendedAction: "Keep and update",
       confidence: 95,
@@ -205,8 +205,8 @@ export const demoMontrealProject: ProjectData = {
     },
     {
       id: "inv-4",
-      url: "https://www.toursbylocals.com/blog/montreal-highlights",
-      canonicalUrl: "https://www.toursbylocals.com/blog/montreal-highlights",
+      url: "https://example.com/blog/montreal-highlights",
+      canonicalUrl: "https://example.com/blog/montreal-highlights",
       pageTitle: "Top Things to Do in Montreal: A Local Guide's Perspective",
       h1: "Best Things to Do in Montreal According to Local Guides",
       h2s: ["1. Wander the Cobblestones of Old Montreal", "2. Hike to Mount Royal Lookout", "3. Taste Smoked Meat & Bagels", "4. Explore the Underground City"],
@@ -225,22 +225,22 @@ export const demoMontrealProject: ProjectData = {
       lastModified: "2026-05-14",
       indexability: "Indexable",
       statusCode: 200,
-      sitemapSource: "https://www.toursbylocals.com/blog/sitemap.xml",
+      sitemapSource: "https://example.com/blog/sitemap.xml",
       internalLinkCount: 8,
       inboundLinksCount: 5,
       outboundLinksCount: 6,
-      existingRelatedPages: ["https://www.toursbylocals.com/Montreal-Tours"],
+      existingRelatedPages: ["https://example.com/Montreal-Tours"],
       contentQualityStatus: "Needs Local Voice",
       recommendedAction: "Add local expertise",
       confidence: 88,
       humanReviewStatus: "Approved",
-      notes: "Current listicle format feels generic. Needs authentic quotes from guides on ToursByLocals and direct commercial callouts to private tours."
+      notes: "Current listicle format feels generic. Needs authentic quotes from guides on Example Travel and direct commercial callouts to private tours."
     },
     {
       id: "inv-5",
-      url: "https://www.toursbylocals.com/blog/3-days-in-montreal-itinerary",
-      canonicalUrl: "https://www.toursbylocals.com/blog/3-days-in-montreal-itinerary",
-      pageTitle: "The Ultimate 3 Days in Montreal Itinerary | ToursByLocals",
+      url: "https://example.com/blog/3-days-in-montreal-itinerary",
+      canonicalUrl: "https://example.com/blog/3-days-in-montreal-itinerary",
+      pageTitle: "The Ultimate 3 Days in Montreal Itinerary | Example Travel",
       h1: "How to Spend 3 Perfect Days in Montreal",
       h2s: ["Day 1: Old Montreal & Port Heritage", "Day 2: Mount Royal, Plateau & Mile End", "Day 3: Downtown, Museums & Jean-Talon"],
       pageType: "Itinerary",
@@ -258,11 +258,11 @@ export const demoMontrealProject: ProjectData = {
       lastModified: "2026-06-02",
       indexability: "Indexable",
       statusCode: 200,
-      sitemapSource: "https://www.toursbylocals.com/blog/sitemap.xml",
+      sitemapSource: "https://example.com/blog/sitemap.xml",
       internalLinkCount: 14,
       inboundLinksCount: 7,
       outboundLinksCount: 9,
-      existingRelatedPages: ["https://www.toursbylocals.com/Montreal-Tours"],
+      existingRelatedPages: ["https://example.com/Montreal-Tours"],
       contentQualityStatus: "High Quality",
       recommendedAction: "Improve internal links",
       confidence: 93,
@@ -271,8 +271,8 @@ export const demoMontrealProject: ProjectData = {
     },
     {
       id: "inv-6",
-      url: "https://www.toursbylocals.com/blog/montreal-food-scene",
-      canonicalUrl: "https://www.toursbylocals.com/blog/montreal-food-scene",
+      url: "https://example.com/blog/montreal-food-scene",
+      canonicalUrl: "https://example.com/blog/montreal-food-scene",
       pageTitle: "Montreal Food Guide: What to Eat & Where to Go",
       h1: "What to Eat in Montreal: Smoked Meat, Bagels, and Beyond",
       h2s: ["The Great Bagel Debate: St-Viateur vs Fairmount", "Classic Quebec Poutine", "Farm-to-Table French Cuisine"],
@@ -291,11 +291,11 @@ export const demoMontrealProject: ProjectData = {
       lastModified: "2026-04-10",
       indexability: "Indexable",
       statusCode: 200,
-      sitemapSource: "https://www.toursbylocals.com/blog/sitemap.xml",
+      sitemapSource: "https://example.com/blog/sitemap.xml",
       internalLinkCount: 6,
       inboundLinksCount: 3,
       outboundLinksCount: 4,
-      existingRelatedPages: ["https://www.toursbylocals.com/Montreal-Food-Tours"],
+      existingRelatedPages: ["https://example.com/Montreal-Food-Tours"],
       contentQualityStatus: "Adequate",
       recommendedAction: "Expand existing page",
       confidence: 91,
@@ -304,8 +304,8 @@ export const demoMontrealProject: ProjectData = {
     },
     {
       id: "inv-7",
-      url: "https://www.toursbylocals.com/blog/best-time-to-visit-montreal",
-      canonicalUrl: "https://www.toursbylocals.com/blog/best-time-to-visit-montreal",
+      url: "https://example.com/blog/best-time-to-visit-montreal",
+      canonicalUrl: "https://example.com/blog/best-time-to-visit-montreal",
       pageTitle: "Best Time to Visit Montreal: Seasonal Weather & Festivals",
       h1: "When is the Best Time to Visit Montreal?",
       h2s: ["Summer Festival Season (June - August)", "Autumn Foliage (September - October)", "Winter Wonderland & Lights (December - February)", "Spring Thaw & Maple Sugar Shacks"],
@@ -324,11 +324,11 @@ export const demoMontrealProject: ProjectData = {
       lastModified: "2026-03-22",
       indexability: "Indexable",
       statusCode: 200,
-      sitemapSource: "https://www.toursbylocals.com/blog/sitemap.xml",
+      sitemapSource: "https://example.com/blog/sitemap.xml",
       internalLinkCount: 5,
       inboundLinksCount: 2,
       outboundLinksCount: 3,
-      existingRelatedPages: ["https://www.toursbylocals.com/Montreal-Tours"],
+      existingRelatedPages: ["https://example.com/Montreal-Tours"],
       contentQualityStatus: "Adequate",
       recommendedAction: "Keep and update",
       confidence: 90,
@@ -337,8 +337,8 @@ export const demoMontrealProject: ProjectData = {
     },
     {
       id: "inv-8",
-      url: "https://www.toursbylocals.com/blog/montreal-top-10-2022",
-      canonicalUrl: "https://www.toursbylocals.com/blog/montreal-highlights",
+      url: "https://example.com/blog/montreal-top-10-2022",
+      canonicalUrl: "https://example.com/blog/montreal-highlights",
       pageTitle: "Top 10 Things to Do in Montreal (2022 Edition)",
       h1: "Top 10 Things in Montreal",
       pageType: "Blog article",
@@ -356,11 +356,11 @@ export const demoMontrealProject: ProjectData = {
       lastModified: "2022-04-11",
       indexability: "Canonicalized",
       statusCode: 301,
-      sitemapSource: "https://www.toursbylocals.com/blog/sitemap.xml",
+      sitemapSource: "https://example.com/blog/sitemap.xml",
       internalLinkCount: 2,
       inboundLinksCount: 4,
       outboundLinksCount: 1,
-      existingRelatedPages: ["https://www.toursbylocals.com/blog/montreal-highlights"],
+      existingRelatedPages: ["https://example.com/blog/montreal-highlights"],
       contentQualityStatus: "Outdated",
       recommendedAction: "Redirect",
       confidence: 99,
@@ -369,9 +369,9 @@ export const demoMontrealProject: ProjectData = {
     },
     {
       id: "inv-9",
-      url: "https://www.toursbylocals.com/guides/montreal/jean-pierre-l",
-      canonicalUrl: "https://www.toursbylocals.com/guides/montreal/jean-pierre-l",
-      pageTitle: "Jean-Pierre L. - Certified Montreal Local Guide | ToursByLocals",
+      url: "https://example.com/guides/montreal/jean-pierre-l",
+      canonicalUrl: "https://example.com/guides/montreal/jean-pierre-l",
+      pageTitle: "Jean-Pierre L. - Certified Montreal Local Guide | Example Travel",
       h1: "Jean-Pierre L. — Local Guide in Montreal, Quebec",
       h2s: ["About Jean-Pierre", "Credentials & Tour Specialties", "Traveller Reviews (4.98/5)", "Available Private Tours"],
       pageType: "Guide profile",
@@ -389,11 +389,11 @@ export const demoMontrealProject: ProjectData = {
       lastModified: "2026-08-01",
       indexability: "Indexable",
       statusCode: 200,
-      sitemapSource: "https://www.toursbylocals.com/sitemaps/guides-montreal.xml",
+      sitemapSource: "https://example.com/sitemaps/guides-montreal.xml",
       internalLinkCount: 12,
       inboundLinksCount: 8,
       outboundLinksCount: 10,
-      existingRelatedPages: ["https://www.toursbylocals.com/Montreal-Tours"],
+      existingRelatedPages: ["https://example.com/Montreal-Tours"],
       contentQualityStatus: "High Quality",
       recommendedAction: "Keep",
       confidence: 98,
@@ -471,7 +471,7 @@ export const demoMontrealProject: ProjectData = {
       clustersAssociated: ["Montreal Local Expertise & Guides"],
       templateConsistency: "Consistent",
       unexpectedGaps: ["Profiles are isolated from editorial content"],
-      notes: "Core E-E-A-T differentiator for ToursByLocals against aggregator competitors."
+      notes: "Core E-E-A-T differentiator for Example Travel against aggregator competitors."
     }
   ],
 
@@ -481,7 +481,7 @@ export const demoMontrealProject: ProjectData = {
       categoryType: "Commercial & Transactional",
       contentType: "Montreal Main City Hub",
       relevance: "Essential",
-      existingUrls: ["https://www.toursbylocals.com/Montreal-Tours"],
+      existingUrls: ["https://example.com/Montreal-Tours"],
       coverageStatus: "Strong coverage",
       contentQuality: "High Quality",
       competitorPresence: "Viator, GetYourGuide, Tripadvisor all operate Montreal city hubs",
@@ -496,7 +496,7 @@ export const demoMontrealProject: ProjectData = {
       categoryType: "Commercial & Transactional",
       contentType: "Montreal Food & Culinary Tours Category",
       relevance: "Essential",
-      existingUrls: ["https://www.toursbylocals.com/Montreal-Food-Tours"],
+      existingUrls: ["https://example.com/Montreal-Food-Tours"],
       coverageStatus: "Covered",
       contentQuality: "High Quality",
       competitorPresence: "Competitors have dedicated culinary categories with 15+ products",
@@ -511,7 +511,7 @@ export const demoMontrealProject: ProjectData = {
       categoryType: "Commercial & Transactional",
       contentType: "Old Montreal Walking Tours Category",
       relevance: "Essential",
-      existingUrls: ["https://www.toursbylocals.com/Old-Montreal-Walking-Tours"],
+      existingUrls: ["https://example.com/Old-Montreal-Walking-Tours"],
       coverageStatus: "Covered",
       contentQuality: "High Quality",
       competitorPresence: "High search competition from Viator and local walking tour operators",
@@ -603,7 +603,7 @@ export const demoMontrealProject: ProjectData = {
       categoryType: "Informational & Editorial",
       contentType: "Montreal Itineraries (1-Day, 3-Day, 5-Day)",
       relevance: "Essential",
-      existingUrls: ["https://www.toursbylocals.com/blog/3-days-in-montreal-itinerary"],
+      existingUrls: ["https://example.com/blog/3-days-in-montreal-itinerary"],
       coverageStatus: "Partially covered",
       contentQuality: "High Quality",
       competitorPresence: "Competitors offer dedicated 1, 2, 3, and 4-day itineraries with interactive maps",
@@ -666,18 +666,18 @@ export const demoMontrealProject: ProjectData = {
       name: "Montreal Destination Core",
       destination: "Montreal",
       primaryUserNeed: "Understand what Montreal offers and find qualified private tours with local guides",
-      hubPageUrl: "https://www.toursbylocals.com/Montreal-Tours",
+      hubPageUrl: "https://example.com/Montreal-Tours",
       hubPageTitle: "Private Montreal Tours & Local Guides",
       supportingPageUrls: [
-        "https://www.toursbylocals.com/blog/montreal-highlights"
+        "https://example.com/blog/montreal-highlights"
       ],
       commercialPageUrls: [
-        "https://www.toursbylocals.com/Montreal-Tours",
-        "https://www.toursbylocals.com/Montreal-Food-Tours",
-        "https://www.toursbylocals.com/Old-Montreal-Walking-Tours"
+        "https://example.com/Montreal-Tours",
+        "https://example.com/Montreal-Food-Tours",
+        "https://example.com/Old-Montreal-Walking-Tours"
       ],
       informationalPageUrls: [
-        "https://www.toursbylocals.com/blog/montreal-highlights"
+        "https://example.com/blog/montreal-highlights"
       ],
       relevantEntities: ["Montreal", "Quebec", "Mount Royal", "Old Port", "Notre-Dame Basilica"],
       searchIntents: ["Informational", "Commercial Investigation"],
@@ -695,11 +695,11 @@ export const demoMontrealProject: ProjectData = {
       name: "Old Montreal & Heritage",
       destination: "Montreal",
       primaryUserNeed: "Explore historic New France architecture, cobblestone streets, and the Old Port",
-      hubPageUrl: "https://www.toursbylocals.com/Old-Montreal-Walking-Tours",
+      hubPageUrl: "https://example.com/Old-Montreal-Walking-Tours",
       hubPageTitle: "Old Montreal Walking Tours & Historic Architecture",
       supportingPageUrls: [],
       commercialPageUrls: [
-        "https://www.toursbylocals.com/Old-Montreal-Walking-Tours"
+        "https://example.com/Old-Montreal-Walking-Tours"
       ],
       informationalPageUrls: [],
       relevantEntities: ["Old Montreal (Vieux-Montréal)", "Vieux-Port", "Notre-Dame Basilica", "Place Jacques-Cartier", "Bonsecours Market"],
@@ -718,16 +718,16 @@ export const demoMontrealProject: ProjectData = {
       name: "Montreal Culinary & Markets",
       destination: "Montreal",
       primaryUserNeed: "Taste authentic Quebec specialities, bagels, smoked meat, and explore Jean-Talon and Atwater public markets",
-      hubPageUrl: "https://www.toursbylocals.com/Montreal-Food-Tours",
+      hubPageUrl: "https://example.com/Montreal-Food-Tours",
       hubPageTitle: "Montreal Food Tours & Culinary Walks",
       supportingPageUrls: [
-        "https://www.toursbylocals.com/blog/montreal-food-scene"
+        "https://example.com/blog/montreal-food-scene"
       ],
       commercialPageUrls: [
-        "https://www.toursbylocals.com/Montreal-Food-Tours"
+        "https://example.com/Montreal-Food-Tours"
       ],
       informationalPageUrls: [
-        "https://www.toursbylocals.com/blog/montreal-food-scene"
+        "https://example.com/blog/montreal-food-scene"
       ],
       relevantEntities: ["Mile End Bagels", "Schwartz's Deli", "Poutine", "Jean-Talon Market", "Atwater Market", "Quebec Terroir"],
       searchIntents: ["Informational", "Commercial Investigation"],
@@ -736,7 +736,7 @@ export const demoMontrealProject: ProjectData = {
       missingComponents: ["Jean-Talon Market vs Atwater Market guide", "Local guide insider food map"],
       overlappingComponents: [],
       internalLinkCompleteness: 65,
-      competitorCoverageSummary: "Competitors emphasize small-group culinary walks. ToursByLocals has advantage in customized dietary private tours.",
+      competitorCoverageSummary: "Competitors emphasize small-group culinary walks. Example Travel has advantage in customized dietary private tours.",
       recommendedArchitecture: "Link /blog/montreal-food-scene contextually to /Montreal-Food-Tours; add guide-curated tasting maps.",
       priority: "High"
     },
@@ -747,15 +747,15 @@ export const demoMontrealProject: ProjectData = {
       primaryUserNeed: "Structure time effectively, understand transit, and choose the right neighbourhood base",
       hubPageUrl: undefined,
       supportingPageUrls: [
-        "https://www.toursbylocals.com/blog/3-days-in-montreal-itinerary",
-        "https://www.toursbylocals.com/blog/best-time-to-visit-montreal"
+        "https://example.com/blog/3-days-in-montreal-itinerary",
+        "https://example.com/blog/best-time-to-visit-montreal"
       ],
       commercialPageUrls: [
-        "https://www.toursbylocals.com/Montreal-Tours"
+        "https://example.com/Montreal-Tours"
       ],
       informationalPageUrls: [
-        "https://www.toursbylocals.com/blog/3-days-in-montreal-itinerary",
-        "https://www.toursbylocals.com/blog/best-time-to-visit-montreal"
+        "https://example.com/blog/3-days-in-montreal-itinerary",
+        "https://example.com/blog/best-time-to-visit-montreal"
       ],
       relevantEntities: ["STM Metro", "Plateau Mont-Royal", "Downtown Montreal", "Montreal Festivals"],
       searchIntents: ["Informational"],
@@ -773,12 +773,12 @@ export const demoMontrealProject: ProjectData = {
       name: "Montreal Local Expertise & Guides",
       destination: "Montreal",
       primaryUserNeed: "Discover licensed, bilingual Montreal local guides and personalize private tours",
-      hubPageUrl: "https://www.toursbylocals.com/Montreal-Tours",
+      hubPageUrl: "https://example.com/Montreal-Tours",
       supportingPageUrls: [
-        "https://www.toursbylocals.com/guides/montreal/jean-pierre-l"
+        "https://example.com/guides/montreal/jean-pierre-l"
       ],
       commercialPageUrls: [
-        "https://www.toursbylocals.com/guides/montreal/jean-pierre-l"
+        "https://example.com/guides/montreal/jean-pierre-l"
       ],
       informationalPageUrls: [],
       relevantEntities: ["APGT (Association of Professional Tourist Guides of Quebec)", "Licensed Montreal guides", "Private custom itineraries"],
@@ -797,17 +797,17 @@ export const demoMontrealProject: ProjectData = {
   pageToBlogRelationships: [
     {
       id: "rel-1",
-      sourceUrl: "https://www.toursbylocals.com/blog/montreal-highlights",
+      sourceUrl: "https://example.com/blog/montreal-highlights",
       sourceTitle: "Best Things to Do in Montreal According to Local Guides",
       sourcePageType: "Blog article",
-      targetUrl: "https://www.toursbylocals.com/Montreal-Tours",
+      targetUrl: "https://example.com/Montreal-Tours",
       targetTitle: "Private Montreal Tours & Local Guides",
       targetPageType: "City page",
       relationshipType: "Informational to commercial",
       existingLinkStatus: "Direct Link Present",
       suggestedLinkDirection: "Bidirectional",
       suggestedContextualPlacement: "Within the opening intro paragraph and under Mount Royal / Old Port recommendation blocks",
-      suggestedAnchorConcept: "private tours available through ToursByLocals in Montreal",
+      suggestedAnchorConcept: "private tours available through Example Travel in Montreal",
       relevance: "Critical",
       confidence: 96,
       humanApproval: "Approved",
@@ -815,10 +815,10 @@ export const demoMontrealProject: ProjectData = {
     },
     {
       id: "rel-2",
-      sourceUrl: "https://www.toursbylocals.com/blog/montreal-food-scene",
+      sourceUrl: "https://example.com/blog/montreal-food-scene",
       sourceTitle: "Montreal Food Guide: What to Eat & Where to Go",
       sourcePageType: "Food guide",
-      targetUrl: "https://www.toursbylocals.com/Montreal-Food-Tours",
+      targetUrl: "https://example.com/Montreal-Food-Tours",
       targetTitle: "Montreal Food Tours & Culinary Walks",
       targetPageType: "Tour category page",
       relationshipType: "Informational to commercial",
@@ -833,10 +833,10 @@ export const demoMontrealProject: ProjectData = {
     },
     {
       id: "rel-3",
-      sourceUrl: "https://www.toursbylocals.com/blog/3-days-in-montreal-itinerary",
+      sourceUrl: "https://example.com/blog/3-days-in-montreal-itinerary",
       sourceTitle: "The Ultimate 3 Days in Montreal Itinerary",
       sourcePageType: "Itinerary",
-      targetUrl: "https://www.toursbylocals.com/Old-Montreal-Walking-Tours",
+      targetUrl: "https://example.com/Old-Montreal-Walking-Tours",
       targetTitle: "Private Walking Tours of Historic Old Montreal",
       targetPageType: "Tour category page",
       relationshipType: "Related itinerary content",
@@ -851,10 +851,10 @@ export const demoMontrealProject: ProjectData = {
     },
     {
       id: "rel-4",
-      sourceUrl: "https://www.toursbylocals.com/blog/3-days-in-montreal-itinerary",
+      sourceUrl: "https://example.com/blog/3-days-in-montreal-itinerary",
       sourceTitle: "The Ultimate 3 Days in Montreal Itinerary",
       sourcePageType: "Itinerary",
-      targetUrl: "https://www.toursbylocals.com/guides/montreal/jean-pierre-l",
+      targetUrl: "https://example.com/guides/montreal/jean-pierre-l",
       targetTitle: "Jean-Pierre L. - Certified Montreal Local Guide",
       targetPageType: "Guide profile",
       relationshipType: "Article to guide expertise",
@@ -869,10 +869,10 @@ export const demoMontrealProject: ProjectData = {
     },
     {
       id: "rel-5",
-      sourceUrl: "https://www.toursbylocals.com/Montreal-Tours",
+      sourceUrl: "https://example.com/Montreal-Tours",
       sourceTitle: "Private Montreal Tours & Local Guides",
       sourcePageType: "City page",
-      targetUrl: "https://www.toursbylocals.com/blog/best-time-to-visit-montreal",
+      targetUrl: "https://example.com/blog/best-time-to-visit-montreal",
       targetTitle: "Best Time to Visit Montreal: Seasonal Weather & Festivals",
       targetPageType: "Seasonal guide",
       relationshipType: "Commercial to informational",
@@ -893,7 +893,7 @@ export const demoMontrealProject: ProjectData = {
       groupName: "Montreal General Highlights & Legacy List",
       urls: [
         {
-          url: "https://www.toursbylocals.com/blog/montreal-highlights",
+          url: "https://example.com/blog/montreal-highlights",
           title: "Best Things to Do in Montreal According to Local Guides",
           pageType: "Blog article",
           intent: "Informational",
@@ -902,7 +902,7 @@ export const demoMontrealProject: ProjectData = {
           gscImpressions: 12800
         },
         {
-          url: "https://www.toursbylocals.com/blog/montreal-top-10-2022",
+          url: "https://example.com/blog/montreal-top-10-2022",
           title: "Top 10 Things to Do in Montreal (2022 Edition)",
           pageType: "Blog article",
           intent: "Informational",
@@ -914,8 +914,8 @@ export const demoMontrealProject: ProjectData = {
       primaryIntent: "Identify key sights and attractions to see in Montreal",
       sharedTopics: ["Old Montreal", "Mount Royal", "Notre-Dame Basilica", "Montreal food"],
       uniqueInformation: "The 2022 article has older festival mentions; the main highlights article has updated local guide tips.",
-      preferredCanonicalUrl: "https://www.toursbylocals.com/blog/montreal-highlights",
-      mergeSourceUrls: ["https://www.toursbylocals.com/blog/montreal-top-10-2022"],
+      preferredCanonicalUrl: "https://example.com/blog/montreal-highlights",
+      mergeSourceUrls: ["https://example.com/blog/montreal-top-10-2022"],
       redirectRecommendation: "301 Permanent Redirect /blog/montreal-top-10-2022 to /blog/montreal-highlights and purge from sitemaps",
       updateOpportunity: "Incorporate any evergreen neighbourhood mentions from legacy post into the primary article.",
       recommendedDecision: "Merge into selected canonical",
@@ -943,7 +943,7 @@ export const demoMontrealProject: ProjectData = {
       informationGain: "Standard",
       commercialInformationalRelationship: "Direct booking catalog with filter facets",
       findingStatus: "Competitor-only coverage",
-      analysisNotes: "Viator captures high-margin cruise passenger searches. ToursByLocals local guides can offer superior customized pickup at the cruise pier, representing a clear target opportunity."
+      analysisNotes: "Viator captures high-margin cruise passenger searches. Example Travel local guides can offer superior customized pickup at the cruise pier, representing a clear target opportunity."
     },
     {
       id: "comp-2",
@@ -951,8 +951,8 @@ export const demoMontrealProject: ProjectData = {
       competitorUrl: "https://www.getyourguide.com/montreal-l190/food-culture-tc4",
       competitorTitle: "Top Montreal Food & Culture Tours 2026 | GetYourGuide",
       competitorPageType: "Tour category page",
-      targetEquivalentUrl: "https://www.toursbylocals.com/Montreal-Food-Tours",
-      targetEquivalentTitle: "Montreal Food Tours & Culinary Walks | ToursByLocals",
+      targetEquivalentUrl: "https://example.com/Montreal-Food-Tours",
+      targetEquivalentTitle: "Montreal Food Tours & Culinary Walks | Example Travel",
       destination: "Montreal",
       topicCluster: "Montreal Culinary & Markets",
       searchIntent: "Commercial Investigation",
@@ -964,7 +964,7 @@ export const demoMontrealProject: ProjectData = {
       informationGain: "Standard",
       commercialInformationalRelationship: "Filters by duration, rating, language",
       findingStatus: "Target site stronger",
-      analysisNotes: "ToursByLocals offers 100% private customized culinary tours with direct guide messaging, which outperforms GYG's fixed large-group aggregate inventory."
+      analysisNotes: "Example Travel offers 100% private customized culinary tours with direct guide messaging, which outperforms GYG's fixed large-group aggregate inventory."
     },
     {
       id: "comp-3",
@@ -1016,7 +1016,7 @@ export const demoMontrealProject: ProjectData = {
       gapCategory: "Structural gaps",
       missingOrWeakTopic: "Authoritative Montreal Travel Guide Pillar & Hub",
       suggestedContentType: "Travel Guide",
-      relevantTargetUrl: "https://www.toursbylocals.com/travel-guide/montreal",
+      relevantTargetUrl: "https://example.com/travel-guide/montreal",
       existingCoverage: "Split across 3 disconnected blog articles with no centralized destination hub structure",
       competitorEvidence: "Lonely Planet, Bonjour Quebec, and Viator all maintain structured hub architecture",
       userIntent: "Informational",
@@ -1042,7 +1042,7 @@ export const demoMontrealProject: ProjectData = {
       gapCategory: "Topic gaps",
       missingOrWeakTopic: "Where to Stay in Montreal: Neighbourhood Guide (Vieux-Montréal vs Plateau vs Downtown)",
       suggestedContentType: "Accommodation or neighbourhood guide",
-      relevantTargetUrl: "https://www.toursbylocals.com/blog/where-to-stay-in-montreal-neighbourhood-guide",
+      relevantTargetUrl: "https://example.com/blog/where-to-stay-in-montreal-neighbourhood-guide",
       existingCoverage: "Zero existing pages covering neighbourhood selection for travellers",
       competitorEvidence: "Ranking #1-5 across competitors with high search intent from trip planners",
       userIntent: "Informational",
@@ -1068,7 +1068,7 @@ export const demoMontrealProject: ProjectData = {
       gapCategory: "Structural gaps",
       missingOrWeakTopic: "Montreal Shore Excursions & Cruise Port Private Tours",
       suggestedContentType: "Shore-excursion page",
-      relevantTargetUrl: "https://www.toursbylocals.com/Montreal-Shore-Excursions",
+      relevantTargetUrl: "https://example.com/Montreal-Shore-Excursions",
       existingCoverage: "No dedicated shore excursion page; cruise queries land on general Montreal Tours",
       competitorEvidence: "Viator and ShoreExcursionsGroup capture over 40% of cruise search volume",
       userIntent: "Commercial Investigation",
@@ -1094,7 +1094,7 @@ export const demoMontrealProject: ProjectData = {
       gapCategory: "Structural gaps",
       missingOrWeakTopic: "Day Trips from Montreal (Quebec City, Mont-Tremblant, Eastern Townships)",
       suggestedContentType: "Tour category page",
-      relevantTargetUrl: "https://www.toursbylocals.com/Montreal-Day-Trips",
+      relevantTargetUrl: "https://example.com/Montreal-Day-Trips",
       existingCoverage: "Local guides offer these tours, but they are scattered across general listings with no category hub",
       competitorEvidence: "Competitors have dedicated Day Trips categories ranking for 'day trips from montreal'",
       userIntent: "Commercial Investigation",
@@ -1120,12 +1120,12 @@ export const demoMontrealProject: ProjectData = {
       gapCategory: "Expertise gaps",
       missingOrWeakTopic: "Local Guide Insider Perspective inside Montreal Highlights Listicle",
       suggestedContentType: "Blog article",
-      relevantTargetUrl: "https://www.toursbylocals.com/blog/montreal-highlights",
+      relevantTargetUrl: "https://example.com/blog/montreal-highlights",
       existingCoverage: "Generic listicle lacking authentic quotes, personal recommendations, and guide credentials",
       competitorEvidence: "Competitor content is highly curated but lacks verifiable local guide authorship",
       userIntent: "Informational",
       journeyStage: "Dreaming / Inspiration",
-      relevantEntities: ["Local guides on ToursByLocals", "Certified guide tips", "Jean-Pierre L.", "Hidden gems"],
+      relevantEntities: ["Local guides on Example Travel", "Certified guide tips", "Jean-Pierre L.", "Hidden gems"],
       businessRelevance: 4,
       relevanceScore: 4,
       contentGapScore: 3,
@@ -1146,7 +1146,7 @@ export const demoMontrealProject: ProjectData = {
       gapCategory: "Internal-link gaps",
       missingOrWeakTopic: "Reciprocal Pathways between Montreal Food Guide and Montreal Food Tours Category",
       suggestedContentType: "Food guide",
-      relevantTargetUrl: "https://www.toursbylocals.com/blog/montreal-food-scene",
+      relevantTargetUrl: "https://example.com/blog/montreal-food-scene",
       existingCoverage: "Blog article mentions Jean-Talon market and bagels but does not link to /Montreal-Food-Tours",
       competitorEvidence: "Top competitors feature sticky booking widgets and contextual tour cards inside food blogs",
       userIntent: "Commercial Investigation",
@@ -1172,7 +1172,7 @@ export const demoMontrealProject: ProjectData = {
       gapCategory: "Topic gaps",
       missingOrWeakTopic: "Winter in Montreal: Cold-Weather Activities, Festivals & Underground City Guide",
       suggestedContentType: "Seasonal guide",
-      relevantTargetUrl: "https://www.toursbylocals.com/blog/winter-in-montreal-guide",
+      relevantTargetUrl: "https://example.com/blog/winter-in-montreal-guide",
       existingCoverage: "Brief 1-paragraph mention in general seasonal guide",
       competitorEvidence: "Competitors capture seasonal surge between November and February",
       userIntent: "Informational",
@@ -1199,7 +1199,7 @@ export const demoMontrealProject: ProjectData = {
       gapCategory: "Intent gaps",
       missingOrWeakTopic: "Language Etiquette for Travellers: Do I Need to Speak French in Montreal?",
       suggestedContentType: "FAQ or resource",
-      relevantTargetUrl: "https://www.toursbylocals.com/blog/montreal-language-etiquette-french",
+      relevantTargetUrl: "https://example.com/blog/montreal-language-etiquette-french",
       existingCoverage: "No existing content addressing this high-anxiety traveller question",
       competitorEvidence: "Reddit and TripAdvisor travel forums have hundreds of active threads on this topic",
       userIntent: "Informational",
@@ -1225,7 +1225,7 @@ export const demoMontrealProject: ProjectData = {
     {
       id: "rec-1",
       action: "Create a hub",
-      targetUrl: "https://www.toursbylocals.com/travel-guide/montreal",
+      targetUrl: "https://example.com/travel-guide/montreal",
       targetTitle: "The Complete Montreal Travel Guide by Local Experts",
       proposedPageType: "Travel Guide",
       topicOrCluster: "Montreal Destination Core",
@@ -1245,12 +1245,12 @@ export const demoMontrealProject: ProjectData = {
     {
       id: "rec-2",
       action: "Create a new page",
-      targetUrl: "https://www.toursbylocals.com/Montreal-Shore-Excursions",
-      targetTitle: "Montreal Shore Excursions & Private Port Tours | ToursByLocals",
+      targetUrl: "https://example.com/Montreal-Shore-Excursions",
+      targetTitle: "Montreal Shore Excursions & Private Port Tours | Example Travel",
       proposedPageType: "Shore-excursion page",
       topicOrCluster: "Montreal Local Expertise & Guides",
       reason: "Captures high-value cruise passengers docking at the Port of Montreal seeking private custom shore trips.",
-      evidence: "Viator and competitors dominate cruise port keywords while ToursByLocals has no dedicated landing page.",
+      evidence: "Viator and competitors dominate cruise port keywords while Example Travel has no dedicated landing page.",
       expectedUserBenefit: "Guaranteed on-time pier pickup, flexible itineraries tailored to ship departure times.",
       businessRelevance: "High average order value with premium private transportation bookings.",
       effort: "Medium",
@@ -1265,7 +1265,7 @@ export const demoMontrealProject: ProjectData = {
     {
       id: "rec-3",
       action: "Create a supporting article",
-      targetUrl: "https://www.toursbylocals.com/blog/where-to-stay-in-montreal-neighbourhood-guide",
+      targetUrl: "https://example.com/blog/where-to-stay-in-montreal-neighbourhood-guide",
       targetTitle: "Where to Stay in Montreal: Neighbourhood Guide from Old Montreal to Mile End",
       proposedPageType: "Accommodation or neighbourhood guide",
       topicOrCluster: "Montreal Trip Planning & Itineraries",
@@ -1284,7 +1284,7 @@ export const demoMontrealProject: ProjectData = {
     {
       id: "rec-4",
       action: "Create a new page",
-      targetUrl: "https://www.toursbylocals.com/Montreal-Day-Trips",
+      targetUrl: "https://example.com/Montreal-Day-Trips",
       targetTitle: "Private Day Trips from Montreal to Quebec City & Laurentians",
       proposedPageType: "Tour category page",
       topicOrCluster: "Montreal Destination Core",
@@ -1303,8 +1303,8 @@ export const demoMontrealProject: ProjectData = {
     {
       id: "rec-5",
       action: "Improve internal links",
-      targetUrl: "https://www.toursbylocals.com/blog/montreal-food-scene",
-      supportingUrls: ["https://www.toursbylocals.com/Montreal-Food-Tours"],
+      targetUrl: "https://example.com/blog/montreal-food-scene",
+      supportingUrls: ["https://example.com/Montreal-Food-Tours"],
       proposedPageType: "Food guide",
       topicOrCluster: "Montreal Culinary & Markets",
       reason: "Connects high-intent culinary blog readers directly to private food tour booking page.",
@@ -1322,8 +1322,8 @@ export const demoMontrealProject: ProjectData = {
     {
       id: "rec-6",
       action: "Merge",
-      targetUrl: "https://www.toursbylocals.com/blog/montreal-highlights",
-      supportingUrls: ["https://www.toursbylocals.com/blog/montreal-top-10-2022"],
+      targetUrl: "https://example.com/blog/montreal-highlights",
+      supportingUrls: ["https://example.com/blog/montreal-top-10-2022"],
       proposedPageType: "Blog article",
       topicOrCluster: "Montreal Destination Core",
       reason: "Eliminates keyword cannibalization and 301 redirect chain in XML sitemaps.",
@@ -1341,7 +1341,7 @@ export const demoMontrealProject: ProjectData = {
     {
       id: "rec-7",
       action: "Validate through Query Fan-out",
-      targetUrl: "https://www.toursbylocals.com/blog/winter-in-montreal-guide",
+      targetUrl: "https://example.com/blog/winter-in-montreal-guide",
       proposedPageType: "Seasonal guide",
       topicOrCluster: "Montreal Practical Planning & Seasons",
       reason: "Requires validation on query fan-out depth for sub-zero clothing advice, underground city navigation, and winter tour demand.",
@@ -1359,7 +1359,7 @@ export const demoMontrealProject: ProjectData = {
     {
       id: "rec-8",
       action: "Validate through Query Fan-out",
-      targetUrl: "https://www.toursbylocals.com/blog/montreal-language-etiquette-french",
+      targetUrl: "https://example.com/blog/montreal-language-etiquette-french",
       proposedPageType: "FAQ or resource",
       topicOrCluster: "Montreal Practical Planning & Seasons",
       reason: "Evaluate whether language anxiety queries should be a dedicated guide or integrated into travel FAQ.",
@@ -1383,7 +1383,7 @@ export const demoMontrealProject: ProjectData = {
       destination: "Montreal",
       topic: "Winter in Montreal: Cold-Weather Activities, Festivals & Underground City Guide",
       contentCluster: "Montreal Practical Planning & Seasons",
-      targetUrl: "https://www.toursbylocals.com/blog/winter-in-montreal-guide",
+      targetUrl: "https://example.com/blog/winter-in-montreal-guide",
       pageType: "Seasonal guide",
       currentCoverage: "Brief 1-paragraph mention in general seasonal guide",
       competitorUrls: ["https://www.quebecoriginal.com/en-ca/ideas/winter-activities-montreal"],
@@ -1435,7 +1435,7 @@ export const demoMontrealProject: ProjectData = {
       destination: "Montreal",
       topic: "Language Etiquette for Travellers: Do I Need to Speak French in Montreal?",
       contentCluster: "Montreal Practical Planning & Seasons",
-      targetUrl: "https://www.toursbylocals.com/blog/montreal-language-etiquette-french",
+      targetUrl: "https://example.com/blog/montreal-language-etiquette-french",
       pageType: "FAQ or resource",
       currentCoverage: "No existing content addressing language etiquette",
       competitorEvidence: "Reddit threads show high traveller anxiety regarding French language laws (Bill 96)",
@@ -1465,7 +1465,7 @@ export const demoMontrealProject: ProjectData = {
         "Are private tours in Montreal conducted in English?",
         "Will people be offended if I don't know French in Montreal?"
       ],
-      recommendedContentFormat: "Concise etiquette guide & FAQ with basic friendly phrases and reassurance that private tours on ToursByLocals are conducted in fluent English or traveller's chosen language",
+      recommendedContentFormat: "Concise etiquette guide & FAQ with basic friendly phrases and reassurance that private tours on Example Travel are conducted in fluent English or traveller's chosen language",
       userNeedEvidenceScore: 4,
       enrichedRecommendation: "Create a supporting article",
       decisionChanged: true,
