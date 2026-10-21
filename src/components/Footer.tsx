@@ -23,7 +23,7 @@ export const Footer: React.FC = () => {
             <span>&bull; Standalone Content Strategy & Information Architecture System</span>
           </div>
           <div className="font-medium text-slate-300">
-            &copy; 2026 Site Content Architecture &amp; Gap Auditor. Developed by <strong className="text-teal-300">Ami - SEO Girl</strong>. All rights reserved.
+            &copy; 2026 Site Content Architecture &amp; Gap Auditor. Developed by <strong className="text-teal-300">SEO Girl - Ami</strong>. All rights reserved.
           </div>
         </div>
 
